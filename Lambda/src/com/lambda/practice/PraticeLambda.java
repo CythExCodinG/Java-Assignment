@@ -5,6 +5,5 @@ public class PraticeLambda {
 		ImplementShow obj=new ImplementShow();
 		obj.display();
 	}
-	
-	
 }
+
