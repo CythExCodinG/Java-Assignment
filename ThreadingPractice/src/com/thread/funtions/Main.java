@@ -7,6 +7,12 @@ public class Main extends Thread{
 	@Override
 	public void run() {
 		for (int i = 0; i < 5; i++) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			System.out.println("hellow is am thread no :"+i);
 		}
 		count++;
@@ -21,9 +27,9 @@ public class Main extends Thread{
 		System.out.println(count);
 		t2.start();
 		t3.start();
-		t2.join();
+//		t2.join();                  //Tells main thread to stop until t2 finishes that is sysout staments will print later
 		System.out.println(count);
-		t3.join();
+//		t3.join();
 		System.out.println(count);
 		
 	}
