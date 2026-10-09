@@ -12,8 +12,6 @@ public class OrderProcessor {
 	
 	public static Predicate<Order> validOrder=order->order.getAmount()>50;
 		
-	
-	
 	public static Function<Order, Order> incrementdata=
 			order->{
 				order.setAmount(order.getAmount()*1.1);

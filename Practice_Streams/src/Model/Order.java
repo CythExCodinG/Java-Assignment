@@ -19,7 +19,7 @@ public class Order {
 	public void setOrderID(int orderID) {
 		this.orderID = orderID;
 	}
-
+	
 	public double getAmount() {
 		return amount;
 	}
