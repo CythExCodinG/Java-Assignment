@@ -39,8 +39,7 @@ public class Bfs_AdjList {
 		adj.get(2).addAll(Arrays.asList(3));
 		adj.get(3).addAll(Arrays.asList(1,2,4));
 		adj.get(4).addAll(Arrays.asList(3));
-		
+		v 
 		bfsTraversal(adj, 0, visited);
-		
 	}
 }
