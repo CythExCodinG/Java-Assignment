@@ -6,7 +6,7 @@ import java.util.Stack;
 public class PostfixToInfix {
 
     public static void main(String[] args) {
-        String convertedString = postFixToInfix("AB+BC-/");
+        String convertedString = postFixToInfix("54+54-/");
         System.out.println("Ans is: " + convertedString);
     }
 
